@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <section id="intro" class="bg-light text-dark text-center">
+        <div class="container-fluid">
+          <h1 class="display-4 bg-dark text-light p-4" >My Biography</h1>
+        </div>
+      </section>
+
+    <div class="container-fluid m-5 h-50">
+        <div class="row">
+            <div class="col-md-4">
+                <img id="myImage" src="achieve.JPG" class="img-thumbnail">
+            </div>
+            <div id="paragraph" class="col-md-7">
+                <h1 id="heading" class="display-6">Hi! I'm Jedrick Jumalon!</h1></h1>
+                <p class="d-flex justify-content-start p-2" > One of my guiding principles in life is the pursuit of diverse experiences, regardless of the outcomes they may yield. I am formally introduced as Jedrick Saraza Jumalon, a senior student enrolled in the Grade 12 curriculum at Mary Immaculate Parish Special School. My current academic focus revolves around the   Technical-Vocational-Livelihood strand, with a specific emphasis on Information and Communications Technology (ICT). I am eager to take this opportunity to elucidate the transformative journey that has contributed to shaping my present identity. </p>
+
+                <p class="d-flex justify-content-start p-2">As a member of our esteemed academic institution, I earnestly endeavor to manifest an individuality that sets me apart and garners distinction. Throughout my educational journey, spanning from pre-school to my current enrollment, I have consistently demonstrated a prowess for scholastic excellence. However, it is imperative to acknowledge that sustaining a pattern of perpetual academic achievement demands unwavering dedication.</p>
+            
+                <p class="d-flex justify-content-start p-2">In pursuit of such a standard, there have been instances wherein I have foregone sleep, investing countless hours into fulfilling assigned obligations. The weight of expectation from familial influences, peer dynamics, and notably, pedagogical mentors, has been palpable. Each task I undertake is accompanied by a resolute commitment to not only satisfy, but to transcend established benchmarks. Within every endeavor, I conscientiously channel heightened effort, ingenuity, resilience, and perseverance, as I endeavor to align with the exacting parameters instituted by my academic environment.</p>
+
+            </div>
+        </div> 
+    </div>
+
+
+    <div class="m-5">
+        <h1 class="m-5">Heading Style</h1>
+        <button type="button" class="btn btn-dark position-relative ms-5" onclick="document.getElementById('heading').style.fontSize='60px'">Enlarge Heading</button>
+        <button type="button" class="btn btn-dark position-relative ms-5" onclick="document.getElementById('heading').style.fontWeight='900'">Bold Heading</button>
+        
+        <h1 class="m-5">Picture Style</h1>
+        <button type="button" class="btn btn-dark position-relative ms-5" onclick="document.getElementById('myImage').style.display='none'  ">Hide Picture</button>
+        <button type="button" class="btn btn-dark position-relative ms-5" onclick="document.getElementById('myImage').style.display='block'">See Picture</button>
+
+        <h1 class="m-5">Paragraph Style</h1>
+        <button type="button" class="btn btn-dark position-relative ms-5" onclick="document.getElementById('paragraph').style.display='none'">Hide Paragraph</button>
+
+        <button type="button" class="btn btn-dark position-relative ms-5" onclick="document.getElementById('paragraph').style.display='block'">Unhide Paragraph</button>
+
+        <button type="button" class="btn btn-primary position-relative ms-5"  onclick="document.getElementById('paragraph').style.color='blue'">Highlight Paragraph</button>
+
+
+    </div>
+</body>
+</html>
